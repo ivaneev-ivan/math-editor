@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 const Header = () => {
 	useEffect(() => {
 		const theme = localStorage.getItem('theme')
-		console.log(theme)
 		if (theme === 'true') {
 			document.documentElement.classList.add('dark')
 		}
